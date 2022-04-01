@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="nonebot-plugin-leetcode",
-    version="0.1",
+    version="0.2",
     author="zxz0415",
     author_email="948125001@qq.com",
     description="one plugin used in nonebot , can send leetcode question to your qq friends and groups every day",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pythonml/douyin_image",
+    url="https://github.com/zxz0415/leetcode",
     packages=setuptools.find_packages(),
     install_requires=[
         'nonebot-plugin-apscheduler>=0.1.2',

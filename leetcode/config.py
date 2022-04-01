@@ -15,8 +15,8 @@ class Config(BaseSettings):
     # plugin custom config
     plugin_setting: str = "default"
 
-    leetcode_qq_friends: list[int]
-    leetcode_qq_groups: list[int]
+    leetcode_qq_friends: list[int] = []
+    leetcode_qq_groups: list[int] = []
 
     leetcode_inform_time: list[Time()] = []
 
