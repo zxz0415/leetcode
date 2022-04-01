@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -15,7 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'nonebot-plugin-apscheduler>=0.1.2',
-        'nonebot2>=2.0.0.a16',
+        'nonebot2>=2.0.0a16',
+        'nonebot-adapter-cqhttp>=2.0.0a16',
         'requests>=2.26.0'
     ],
     entry_points={
